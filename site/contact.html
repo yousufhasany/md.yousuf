@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Md. Yousuf</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js-anim");</script>
+  <noscript><style>html.js-anim .reveal{opacity:1;filter:none;transform:none;clip-path:none}</style></noscript>
+</head>
+<body data-page="contact">
+  <div data-header></div>
+  <section class="page-banner">
+    <div class="container">
+      <div class="banner-inner banner-cover banner-cover-contact">
+        <div>
+          <h1>Contact</h1>
+          <div class="crumbs"><a href="index.html">Home</a> / <span class="current">Contact</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container contact-grid">
+      <div>
+        <h2>Write if the work overlaps.</h2>
+        <p class="lead" style="margin:16px 0 28px">Software development, research conversation, or educational technology. Email or call for a reply.</p>
+        <div class="grid-2" style="grid-template-columns:1fr;gap:14px">
+          <article class="info-card">
+            <strong>Email</strong>
+            <p><a href="mailto:hyousuf266@gmail.com">hyousuf266@gmail.com</a></p>
+          </article>
+          <article class="info-card">
+            <strong>Phone</strong>
+            <p><a href="tel:+8801732231661">+880 1732-231661</a></p>
+          </article>
+          <article class="info-card">
+            <strong>GitHub</strong>
+            <p><a href="https://github.com/yousufhasany" target="_blank" rel="noopener">github.com/yousufhasany</a></p>
+          </article>
+          <article class="info-card">
+            <strong>LinkedIn</strong>
+            <p><a href="https://www.linkedin.com/in/md-yousufhasan/" target="_blank" rel="noopener">linkedin.com/in/md-yousufhasan</a></p>
+          </article>
+          <article class="info-card">
+            <strong>Location</strong>
+            <p>Bangladesh</p>
+          </article>
+        </div>
+      </div>
+      <form class="form" data-contact>
+        <h3>Leave a note</h3>
+        <p>This form does not send to a server. For a reply, email hyousuf266@gmail.com or call +880 1732-231661.</p>
+        <div class="form-row">
+          <input name="name" type="text" placeholder="Your name" required>
+          <input name="email" type="email" placeholder="Email address" required>
+        </div>
+        <select name="interest" required>
+          <option value="">What is this about?</option>
+          <option>Software development</option>
+          <option>Deep learning / research</option>
+          <option>Educational technology</option>
+          <option>Something else</option>
+        </select>
+        <textarea name="message" rows="5" placeholder="What should we talk about?" required></textarea>
+        <button class="btn btn-dark" type="submit">Save note in this browser</button>
+        <div class="form-status" role="status"></div>
+      </form>
+    </div>
+  </section>
+  <div data-footer></div>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

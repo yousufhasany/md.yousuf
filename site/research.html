@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research - Md. Yousuf</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js-anim");</script>
+  <noscript><style>html.js-anim .reveal{opacity:1;filter:none;transform:none;clip-path:none}</style></noscript>
+</head>
+<body data-page="research">
+  <div data-header></div>
+  <section class="page-banner">
+    <div class="container">
+      <div class="banner-inner banner-cover banner-cover-research">
+        <div>
+          <h1>Research</h1>
+          <div class="crumbs"><a href="index.html">Home</a> / <span class="current">Research</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container detail-grid">
+      <div class="detail-copy">
+        <p class="eyebrow">Undergraduate thesis</p>
+        <h2>Deep Learning Framework for Automated Lung and Pulmonary Nodule Segmentation in Thoracic CT Scans</h2>
+        <p class="lead">Bachelor’s thesis in Computer Science and Engineering at Independent University, Bangladesh. The work sits in deep learning, medical image analysis, computer vision, lung segmentation, pulmonary nodule identification, and automated medical image segmentation.</p>
+
+        <figure class="thesis-figure">
+          <img src="images/thesis-cover.png" alt="Title page of the undergraduate thesis on lung and pulmonary nodule segmentation">
+          <figcaption>Thesis cover as deposited with Independent University, Bangladesh. Authors, student IDs, term, and supervisor are shown as they appear on this page.</figcaption>
+        </figure>
+
+        <h2>Authors</h2>
+        <p>Prepared by Md. Yousuf, Abbas Yasin, and Muaaz Mohammad. Author names and order follow the thesis cover and the IUB institutional record.</p>
+
+        <h2>IUB thesis record</h2>
+        <p>The official repository record is held by Independent University, Bangladesh. The record lists the work as a thesis, publisher IUB, and date April 2026. The cover page names the term as Spring 2026. This is the thesis record, not a claim that the degree has already been conferred.</p>
+        <p class="doc-links">
+          <a class="btn btn-dark" href="https://ar.iub.edu.bd/handle/11348/1204" target="_blank" rel="noopener">IUB thesis record</a>
+          <a class="btn btn-line" href="https://ieeexplore.ieee.org/document/11545645/" target="_blank" rel="noopener">IEEE Xplore document</a>
+        </p>
+
+        <h2>Reported in the IUB abstract</h2>
+        <p>These figures are quoted from the abstract on the IUB record. They are not copied onto the IEEE page, and this site does not add extra metrics.</p>
+        <ul>
+          <li>U-Net with a ResNet-18 backbone, trained with the LUNA16 dataset, Hounsfield unit windowing, data augmentation, and transfer learning.</li>
+          <li>Reported Dice scores: left lung 0.996, right lung 0.973, pulmonary nodules 0.848.</li>
+          <li>The abstract notes limited training data and 2D slice-based processing as limitations, and points to future 3D architectures, attention mechanisms, and larger multi-institutional datasets.</li>
+        </ul>
+
+        <figure class="ct-figure">
+          <img src="images/ct-slice-082.png" alt="Axial thoracic CT slice from the lung segmentation research">
+          <figcaption>Axial thoracic CT slice from the research materials. Shown as a scan used in the work, not as a model output or a diagnosis.</figcaption>
+        </figure>
+
+        <h2>IEEE publication</h2>
+        <p>A related IEEE Xplore document is listed under a close title: Deep Learning Framework for Automated Pulmonary Nodule Identification and Anatomical Segmentation in Thoracic CT Scans. The public IEEE record is the document at 11545645. This page does not invent a DOI, venue, IEEE author order, or citation count, and it does not treat the thesis and the IEEE document as the same file.</p>
+
+        <h2>Described research workflow</h2>
+        <ul>
+          <li>CT image preprocessing using a Hounsfield Unit window centered at −600 with a width of 1500.</li>
+          <li>Resizing CT images to 224 × 224 grayscale, replicating the grayscale channel when a model required it.</li>
+          <li>Multi-class segmentation of background, left lung, right lung, and pulmonary nodules.</li>
+          <li>U-Net architecture with a ResNet-18 encoder.</li>
+          <li>Development and training with PyTorch Lightning and GPU computing.</li>
+          <li>Dice loss for segmentation optimization.</li>
+          <li>Adam optimizer with a cosine learning-rate schedule.</li>
+          <li>Evaluation using Dice coefficient, Intersection over Union, precision, and recall.</li>
+          <li>Use of the LUNA16 and LIDC-IDRI datasets.</li>
+        </ul>
+
+        <h2>Previously described experimental configuration</h2>
+        <p>These training-setup details describe a configuration I supplied earlier. They are not taken from the IUB abstract.</p>
+        <ul>
+          <li>Data split: patient-level 10% training, 10% validation, and 80% testing.</li>
+          <li>Training duration: 120 epochs.</li>
+          <li>Batch size: 16.</li>
+          <li>GPU: NVIDIA RTX 4060 Ti, as previously described.</li>
+          <li>Initial learning rate: 2 × 10⁻⁴. Minimum learning rate: 1 × 10⁻⁵.</li>
+        </ul>
+      </div>
+      <aside class="side-card">
+        <h3>Thesis record</h3>
+        <dt>Authors</dt>
+        <dd>Md. Yousuf, Abbas Yasin, Muaaz Mohammad</dd>
+        <dt>Term</dt>
+        <dd>Spring 2026</dd>
+        <dt>IUB record date</dt>
+        <dd>April 2026</dd>
+        <dt>Supervisor</dt>
+        <dd>Md. Rashedur Rahman, D. Eng.</dd>
+        <dt>Supervisor role</dt>
+        <dd>Assistant Professor, Department of Computer Science and Engineering, School of Engineering Technology and Science</dd>
+        <dt>Institution</dt>
+        <dd>Independent University, Bangladesh</dd>
+        <a class="btn btn-dark" style="margin-top:22px;width:100%" href="https://ar.iub.edu.bd/handle/11348/1204" target="_blank" rel="noopener">Open the IUB record</a>
+        <a class="btn btn-line" style="margin-top:12px;width:100%" href="https://ieeexplore.ieee.org/document/11545645/" target="_blank" rel="noopener">View on IEEE Xplore</a>
+      </aside>
+    </div>
+  </section>
+  <div data-footer></div>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

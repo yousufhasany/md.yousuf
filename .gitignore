@@ -1,0 +1,9 @@
+.vercel
+.DS_Store
+Thumbs.db
+*.log
+content/
+wp-content/
+taxonomies/
+manifest.json
+site-settings.json
