@@ -155,7 +155,8 @@ function renderWork() {
       </div>
       <aside class="side-card">
         <h3>Details</h3>
-        <dt>Context</dt><dd>${project.org}</dd>
+        <dt>Organization</dt><dd>${project.org}</dd>
+        ${project.slogan ? `<dt>Slogan</dt><dd>${project.slogan}</dd>` : ""}
         <dt>Category</dt><dd>${project.category}</dd>
         <dt>Stack / tools</dt><dd>${project.stack}</dd>
         ${extraLink}

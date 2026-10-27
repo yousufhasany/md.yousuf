@@ -103,12 +103,13 @@ const PROJECTS = [
     level: "Community",
     title: "Street lighting in Akanagor",
     category: "Community problem solving",
-    org: "Akanagor, Bancharampur, Brahmanbaria",
+    org: "Manus Kahon",
+    slogan: "CREATE YOUR SELF AND MAKE THE WORLD TO SMILE.",
     stack: "Field work · Problem mapping",
     tone: "teal",
     image: "images/streetlight-group.jpg",
-    imageAlt: "Volunteer group in front of the Upazila Parishad building in Bancharampur, Brahmanbaria",
-    overview: "Street lighting in Akanagor, Bancharampur, Brahmanbaria, my own area. A mindmap was used to plan how to address village darkness, then the work was carried out locally. The field video shows electrical wire being prepared and the street at night. The project PDF records the funding, electricity, timing, and an output slide.",
+    imageAlt: "Manus Kahon volunteer group in front of the Upazila Parishad building in Bancharampur, Brahmanbaria",
+    overview: "Street lighting in Akanagor, Bancharampur, Brahmanbaria, my own area, carried out with Manus Kahon. Slogan: CREATE YOUR SELF AND MAKE THE WORLD TO SMILE. A mindmap was used to plan how to address village darkness, then the work was carried out locally. The field video shows electrical wire being prepared and the street at night. The project PDF records the funding, electricity, timing, and an output slide.",
     link: "files/street-lighting-project.pdf",
     linkLabel: "Open the project PDF",
     gallery: [
@@ -122,14 +123,14 @@ const PROJECTS = [
         type: "video",
         src: "videos/manush-kahon.mp4",
         poster: "images/manush-kahon-poster.jpg",
-        alt: "Field video of street lighting work in Akanagor, from electrical wire to the street at night",
-        caption: "Field video of the street lighting work in Akanagor. It shows electrical wire being prepared and the street at night after the lights are on.",
+        alt: "Manus Kahon field video of street lighting work in Akanagor, from electrical wire to the street at night",
+        caption: "Manus Kahon field video of the street lighting work in Akanagor. It shows electrical wire being prepared and the street at night after the lights are on.",
         fit: "contain"
       },
       {
         src: "images/streetlight-group.jpg",
-        alt: "Volunteer group in front of the Upazila Parishad building in Bancharampur, Brahmanbaria",
-        caption: "Group photograph at the Upazila Parishad building, Bancharampur, Brahmanbaria."
+        alt: "Manus Kahon volunteer group in front of the Upazila Parishad building in Bancharampur, Brahmanbaria",
+        caption: "Manus Kahon group photograph at the Upazila Parishad building, Bancharampur, Brahmanbaria."
       }
     ],
     map: [
@@ -214,15 +215,15 @@ const PROJECTS = [
       "Ask whether a streetlight can be installed on the street, and how to implement it.",
       "A mindmap covering Where, How, Why, What, and When.",
       "Field video of preparing electrical wire and the street at night in Akanagor.",
-      "Group field activity at the Upazila Parishad building in Bancharampur."
+      "Group field activity with Manus Kahon at the Upazila Parishad building in Bancharampur."
     ],
     approach: [
       "The project PDF frames this as putting the mindmap into real life.",
       "Funding, electricity, shop support, and the post-setup bill plan follow that PDF.",
       "This page does not add a light count, a cost, or a date. Those figures are not in the PDF.",
-      "Organization names and leadership titles stay off the page until they are confirmed."
+      "Leadership titles stay off the page until they are confirmed."
     ],
-    note: "The area is Akanagor, Bancharampur, Brahmanbaria, as stated for this work. Planning and implementation details follow the project PDF. This listing is not merged with the IUB Live in Field Experience in Sreemangal."
+    note: "Organization: Manus Kahon. Slogan: CREATE YOUR SELF AND MAKE THE WORLD TO SMILE. The area is Akanagor, Bancharampur, Brahmanbaria. Planning and implementation details follow the project PDF. This listing is not merged with the IUB Live in Field Experience in Sreemangal."
   },
   {
     id: "bridge-institute",
@@ -309,9 +310,9 @@ const EXPERIENCE = [
     text: "Venue monitoring in Sreemangal, student communication, coordination with other monitors, workshop support, and participation in community development activities. Program-level figures are not presented as personal service counts."
   },
   {
-    org: "Community work, Akanagor, Bancharampur, Brahmanbaria",
+    org: "Manus Kahon, Akanagor, Bancharampur, Brahmanbaria",
     title: "Street lighting in Akanagor",
     field: "Community problem solving",
-    text: "Street lighting work in Akanagor, my own area in Bancharampur, Brahmanbaria. A mindmap, local fundraising, shop support, and field implementation were used to address village darkness. Details follow the project PDF."
+    text: "Street lighting work with Manus Kahon in Akanagor, my own area in Bancharampur, Brahmanbaria. Slogan: CREATE YOUR SELF AND MAKE THE WORLD TO SMILE. A mindmap, local fundraising, shop support, and field implementation were used to address village darkness. Details follow the project PDF."
   }
 ];
