@@ -15,8 +15,12 @@ function headerHTML(page) {
           ${link("portfolio.html", "portfolio", "Projects")}
           ${link("experience.html", "experience", "Experience")}
           ${link("contact.html", "contact", "Contact")}
+          <a href="${PROFILE.cv}" target="_blank" rel="noopener">CV</a>
         </nav>
-        <a class="btn btn-dark" href="contact.html">Contact</a>
+        <div class="header-actions">
+          <a class="btn btn-line" href="${PROFILE.cv}" target="_blank" rel="noopener">CV</a>
+          <a class="btn btn-dark" href="contact.html">Contact</a>
+        </div>
         <button class="menu-toggle" type="button" aria-label="Open menu"><span></span></button>
       </div>
     </header>`;
@@ -53,9 +57,11 @@ function footerHTML() {
             <h3>Elsewhere</h3>
             <a href="mailto:${PROFILE.email}">Email</a>
             <a href="tel:${PROFILE.phone}">Phone</a>
+            <a href="${PROFILE.website}" target="_blank" rel="noopener">Website</a>
             <a href="${PROFILE.github}" target="_blank" rel="noopener">GitHub</a>
             <a href="${PROFILE.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
             <a href="${PROFILE.thesis}" target="_blank" rel="noopener">IUB thesis</a>
+            <a href="${PROFILE.cv}" target="_blank" rel="noopener">Download CV</a>
             <a href="${PROFILE.ieee}" target="_blank" rel="noopener">IEEE Xplore</a>
           </div>
         </div>

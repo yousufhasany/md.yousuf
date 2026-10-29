@@ -6,11 +6,13 @@ const PROFILE = {
   university: "Independent University, Bangladesh (IUB)",
   github: "https://github.com/yousufhasany",
   linkedin: "https://www.linkedin.com/in/md-yousufhasan/",
+  website: "https://www.mdyousufhasan.com",
   email: "hyousuf266@gmail.com",
   phone: "+8801732231661",
   phoneLabel: "+880 1732-231661",
   ieee: "https://ieeexplore.ieee.org/document/11545645/",
-  thesis: "https://ar.iub.edu.bd/handle/11348/1204"
+  thesis: "https://ar.iub.edu.bd/handle/11348/1204",
+  cv: "files/Md_Yousuf_CV.pdf"
 };
 
 const PROJECTS = [
@@ -283,25 +285,31 @@ const EXPERIENCE = [
     org: "BIIT",
     title: "Web and System Developer",
     field: "Web development · System development",
-    text: "Web and system development work, including website development, system implementation, and related technical work. Employment dates are not listed until they are confirmed."
+    text: "Web and system development work, including website development, system implementation, and related technical work. From 1 October 2027."
   },
   {
     org: "Bosttopus.com",
     title: "Senior Web Developer",
     field: "Web development",
-    text: "Senior web developer role. Specific responsibilities, technologies, and achievements are omitted until they can be verified. Employment dates are not listed until they are confirmed."
+    text: "Senior web developer role, remote, from 10 November 2025. Specific project names and achievements are omitted until they can be verified."
   },
   {
     org: "Independent University, Bangladesh",
     title: "Teacher Assistant",
     field: "Academic support",
-    text: "Teacher Assistant under Mahbubul Haq Bhuiyan at IUB. Course names, duties, and dates will be added when confirmed."
+    text: "Teacher Assistant for Introduction to Computer Science at IUB."
+  },
+  {
+    org: "Prof. Yusuf Mahbubul Islam, PhD, Vice Chancellor and Professor, Southeast University",
+    title: "Personal Assistant",
+    field: "Academic support · Teacher training",
+    text: "Personal assistant for approximately two years. Foundation-course work was supervised by Prof. Yusuf Mahbubul Islam. During this period I conducted 40+ teacher-training workshops."
   },
   {
     org: "BIIT Foundation Skill Development Certification Program",
     title: "Course Developer and Supervisor",
     field: "Curriculum development · Question-Based Learning",
-    text: "Review of lesson plans, teacher guides, slides, and practical exercises. Checking alignment between learning objectives, lesson content, and assessments. Coordinating curriculum review and feedback under QBL methodology."
+    text: "Review of lesson plans, teacher guides, slides, and practical exercises under the supervision of Prof. Yusuf Mahbubul Islam, PhD. Checking alignment between learning objectives, lesson content, and assessments. Coordinating curriculum review and feedback under QBL methodology."
   },
   {
     org: "IUB Live in Field Experience",

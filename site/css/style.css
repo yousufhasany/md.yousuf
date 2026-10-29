@@ -118,6 +118,13 @@ p { color: var(--muted); }
 .nav a:hover,
 .nav a.active { color: var(--accent); }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
 .menu-toggle {
   display: none;
   width: 44px;
@@ -1089,7 +1096,7 @@ ul.detail-copy li { list-style: disc; color: var(--muted); margin: 8px 0; }
   }
   .nav.open { display: flex; }
   .menu-toggle { display: block; }
-  .header-inner .btn { display: none; }
+  .header-actions { display: none; }
   .hero-grid { grid-template-columns: 1fr; }
   .hero-stats { grid-template-columns: 1fr; }
   .grid-2, .grid-3, .quote-grid, .pricing, .about-facts, .form-row, .results, .community-shots {
