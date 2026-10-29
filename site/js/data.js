@@ -285,7 +285,7 @@ const EXPERIENCE = [
     org: "BIIT",
     title: "Web and System Developer",
     field: "Web development · System development",
-    text: "Web and system development work, including website development, system implementation, and related technical work. From 1 October 2027."
+    text: "Web and system development work, including website development, system implementation, and related technical work. From 1 October 2026."
   },
   {
     org: "Bosttopus.com",
